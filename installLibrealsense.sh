@@ -6,12 +6,12 @@
 # Jetson Nano; L4T 32.2
 
 LIBREALSENSE_DIRECTORY=${HOME}/librealsense
-LIBREALSENSE_VERSION=v2.24.0
+LIBREALSENSE_VERSION=v2.25.0
 INSTALL_DIR=$PWD
 NVCC_PATH=/usr/local/cuda-10.0/bin/nvcc
 
 # You don't need to build CMake unless you are using CUDA
-USE_CUDA=true
+USE_CUDA=false
 
 function usage
 {
